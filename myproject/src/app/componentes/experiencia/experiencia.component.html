@@ -1,0 +1,20 @@
+<!-- Experiencia section-->
+<section class="bg-light" id="experiencia">
+    <div class="container px-4">
+        <div class="row gx-4 justify-content-center">
+            <div class="col-lg-8">
+                <h2>Experiencia relevante</h2>
+                <br>
+                <ul>
+                   <div *ngFor="let element of experienciaList">
+                        <h5>{{element.institucion}}</h5>
+                        <p><i>{{element.posicion}}</i></p> 
+                        <p><b>Desde:&nbsp;&nbsp;</b>{{element.fechai}}</p>
+                         <p><b>Hasta:&nbsp;&nbsp;</b>{{element.fechaf}}</p>
+                         <p><b>Tareas:&nbsp;&nbsp;</b>{{element.descripcion}}</p>
+                   </div>  
+                </ul>
+        </div>
+    </div>
+</div>
+</section>

@@ -1,0 +1,22 @@
+ <!-- Contact section-->
+
+ <section id="contact">
+    <div class="container px-4">
+        <div class="row gx-4 justify-content-center">
+            <div class="col-lg-8">
+                <h2>Educación</h2>
+                <br>
+                <ul>
+                   <div *ngFor="let element of educacionList">
+                        <h5>{{element.institucion}}</h5>
+                        <p><i>{{element.titulo}}</i></p> 
+                        <p><b>Desde:&nbsp;&nbsp;</b>{{element.fechai}}</p>
+                         <p><b>Hasta:&nbsp;&nbsp;</b>{{element.fechaf}}</p>
+                         <p><b>Descripción:&nbsp;&nbsp;</b>{{element.descripcion}}</p>
+                         <br>
+                   </div>  
+                </ul>
+        </div>
+    </div>
+</div>
+</section>

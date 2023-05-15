@@ -1,0 +1,64 @@
+{
+	"id":1,
+	"nombrecomp": "Alejandra Fauquié",
+	"descripcion": "Interesada en crear experiencias artísticas y/o educativas interactivas e inclusivas usando la programación y la electrónica",
+	"descripcionb": "Artista,educadora y programadora",
+	"mail": "maria.alejandra.fauquie@gmail.com",
+	"password":"TPArgentinaPrograma2023",
+	"telefono": "1532843614",
+	"direccion": "Guardia Vieja 4176",
+	"url":"https://www.instagram.com/criaturasdeoficina/?next=%2F",
+	
+	
+	"experiencia": [{
+		"institucion": "JGM-Dirección de Capacitación en TIC",
+		"posicion": "Diseñadora instruccional",
+		"fechai": "03/06/2015",
+		"fechaf": "11/05/2023",
+		"descripcion": "Diseño de secuencias didácticas, desarrollo de tecnologías educativas"
+	}],
+
+	"educacion": [{
+			"institucion": "Ministerio de Desarrollo Productivo y Cámara Argentina de Software",
+			"titulo": "Argentina Programa",
+			"fechai": "18/10/2022",
+			"fechaf": "15/05/2023",
+			"descripcion": "Desarrollo Web FullStack Jr"
+		},
+
+		{
+			"institucion": "Universidad Nacional Autónoma de México",
+			"titulo": "Programación en Java de Aplicaciones Móviles",
+			"fechai": "16/01/2023",
+			"fechaf": "20/03/2023",
+			"descripcion": "Metodologías de JAVA para el Desarrollo de Apps Móviles. Eclipse IDE y Android Studio IDE"
+		},
+
+		{
+			"institucion": "Universidad de Toronto",
+			"titulo": "Licenciada en Humanidades (trad.)",
+			"fechai": "01/09/2007",
+			"fechaf": "13/11/2013"
+		}
+
+
+
+	],
+
+	"proyectos": [{
+			"titulo": "Desarrollo de la App HubPD ",
+			"fechai": "20/03/2023",
+			"fechaf": "01/06/2023",
+			"descripcion": "App para el taller de robótica para infancias para teledirigir un robot"
+		},
+
+		{
+			"titulo": "Desarrollo de Portafolio Web",
+			"fechai": "18/10/2022",
+			"fechaf": "15/05/2023",
+			"descripcion": "Desarrollo de un Portafolio Web con Angular, Springboot y JWT"
+		}
+	]
+
+
+}

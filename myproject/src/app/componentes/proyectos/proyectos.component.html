@@ -1,0 +1,20 @@
+<!-- Services section-->
+<section class="bg-light" id="services">
+    <div class="container px-4">
+        <div class="row gx-4 justify-content-center">
+            <div class="col-lg-8">
+                <h2>Proyectos</h2>
+                <br>
+                <ul>
+                   <div *ngFor="let element of proyectosList">
+                        <h5>{{element.titulo}}</h5> 
+                        <p><b>Desde:&nbsp;&nbsp;</b>{{element.fechai}}</p>
+                         <p><b>Hasta:&nbsp;&nbsp;</b>{{element.fechaf}}</p>
+                         <p><b>Descripción:&nbsp;&nbsp;</b>{{element.descripcion}}</p>
+                         <br>
+                   </div>  
+                </ul>
+        </div>
+    </div>
+</div>
+</section>
