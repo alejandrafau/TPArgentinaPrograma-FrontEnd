@@ -13,7 +13,8 @@ export class AcercaDeMiComponent implements OnInit {
 
   ngOnInit(): void {
     this.datosPortafolio.obtenerDatos().subscribe(data=>{
-    this.miPortafolio=data[0];
+    //this.miPortafolio=data[0];
+    this.miPortafolio=data;
     });
   }
 }
